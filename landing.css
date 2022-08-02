@@ -1,0 +1,126 @@
+.conteiner-fluid { 
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.colorletra {
+    color: aliceblue !important;
+    font-weight: bold !important;
+    font-size: large;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+.colorfondo {
+    background-color: rgb(235, 170, 203) !important;
+}
+
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn1 {
+    background-color: hotpink;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    border-color: bisque;
+    border-style: double;
+    border-radius: 50px;
+}
+.presentacion {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: darksalmon;
+    font-weight: bold;
+    margin-top: 0;
+    width: 100%;
+    height: 900px;
+    border: solid;
+    box-sizing: border-box;
+    padding-top: 100px;
+    /* padding-bottom: 300px; */
+}
+
+.titulo {
+    color:  palevioletred;
+    padding-bottom: 30px;
+    text-align: center;
+   
+}
+
+.item1 {
+    text-align: center;
+    color: darkgray;
+    padding-left: 200px;
+    padding-right: 300px;
+    font-size: large;
+
+   
+}
+
+.item2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    /* padding-bottom: 10px; */
+    font-size: large;
+}
+
+#mail {
+    padding-left:30px;
+    padding-top: 30px;
+}
+.btn2 {
+    margin-left: 20px;
+    background-color: darksalmon;
+    color: aliceblue;
+    border-radius:30px;
+    border: none;
+}
+
+#mail {
+    padding-left: 600px;
+}
+
+.piemail {
+    padding-left: 600px;
+    padding-right: 200px;
+    padding-top: 10px;
+    font-size: small;
+
+}
+.imagen1 {
+   flex-direction: column;
+   width: 90%;
+   text-align: center;
+   padding-left: 200px;
+}
+
+.publicidad {
+    width: 100%;
+    border: solid;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 30%;
+}
+
+.extra {
+    width: 100%;
+    border: solid;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 20% ;
+}
+
+.pie {
+    width: 100%;
+    border: solid;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 15%;
+}
