@@ -109,7 +109,7 @@
     width: 100%;
     background-color:rgb(204, 177, 141) ;
     box-sizing: border-box;
-    
+   
     
 }
 
@@ -124,14 +124,10 @@
     padding-bottom: 50px;
 }
 
-.tarejetas {
+.conteinertarejetas {
     width: 40%;
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-    'a a b b'
-    'c c d d'
-    'e e f f' ;
+    display: flex;
+    flex-direction: row
     
 
 }
@@ -234,7 +230,7 @@
     padding: 20% ;
 }
 
-.pie {
+.conteinerpie {
     background-color: peachpuff;
     color: rgb(136, 55, 55);
     width: 100%;
@@ -242,23 +238,37 @@
     padding-bottom: 30px;
     padding-left: 30px;
     box-sizing: border-box;   
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
    
 }
 
 .imagenpie {
-    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+   
+    
   
 }
+
+.btnicono {
+    margin-top: 30px;
+    border: none;
+    background-color:peachpuff ;
+    font-size: 50px;
+    color: rgb(136, 55, 55);
+}
 .titulopie1 {
-    grid-template-rows: 1fr;
+    width: 40%;
+    
     
     
 }
 
 .titulopie2 {
-    grid-template-rows: 1fr;
+    width: 40%;
+    
     
     
 }
