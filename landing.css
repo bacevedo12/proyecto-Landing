@@ -14,7 +14,7 @@
 
 }
 .colorfondo {
-    background-color: rgb(235, 170, 203) !important;
+    background-color: rgb(204, 177, 141) !important;
 }
 
 #navbarNavAltMarkup {
@@ -23,7 +23,7 @@
 }
 
 .btn1 {
-    background-color: hotpink;
+    background-color: rgba(200, 160, 105, 0.769);
     color: aliceblue;
     font-weight: bold;
     font-size: larger;
@@ -34,8 +34,10 @@
 .presentacion {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: antiquewhite;
-    color: darksalmon;
+    color: antiquewhite ;
     font-weight: bold;
     margin-top: 0;
     width: 100%;
@@ -47,7 +49,8 @@
 }
 
 .titulo {
-    color:  palevioletred;
+    color:  rgb(218, 126, 61);
+    padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
    
@@ -92,22 +95,136 @@
     padding-right: 200px;
     padding-top: 10px;
     font-size: small;
+    color: darksalmon;
 
 }
 .imagen1 {
-   flex-direction: column;
-   width: 90%;
-   text-align: center;
-   padding-left: 200px;
+    width: 70%;
 }
+    
+   
+   
 
 .publicidad {
     width: 100%;
-    border: solid;
-    border-color: black;
+    background-color:rgb(204, 177, 141) ;
     box-sizing: border-box;
-    padding: 30%;
+    
+    
 }
+
+
+.cabecera {
+    text-align: center;
+    font-size: 200cm;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tarejetas {
+    width: 40%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'a a b b'
+    'c c d d'
+    'e e f f' ;
+    
+
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4,.tarjeta5, .tarejeta6 {
+    background-color: aliceblue;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 10px;
+}
+
+.tarjeta1, .tarjeta3, .tarjeta5 {
+    background-color: beige;
+}
+
+.tarjeta2, .tarjeta4, .tarjeta4 {
+    background-color: blanchedalmond;
+}
+
+
+.tarjeta1 {
+    width: 40%;
+    grid-area: a;
+}
+
+.tarjeta2 {
+    width: 40%;
+    grid-area: b;
+}
+
+.tarjeta3 {
+    width: 40%;
+    grid-area: c;
+}
+
+.tarjeta4 {
+    width: 40%;
+    grid-area: d;
+}
+
+.tarjeta5 {
+    width: 40%;
+    grid-area: e;
+}
+
+.tarejeta6 {
+    width: 40%;
+    grid-area: f;
+}
+
+.titulotarjeta1, .titulotarjeta3, .titulotarjeta5 {
+    text-align: center;
+    color: burlywood;
+    font-weight: bold;
+}
+
+.titulotarjeta2, .titulotarjeta4, .titulotarjeta6 {
+    text-align: center;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.textprecio1 {
+    color: burlywood;
+    font-weight: bold;
+    font-size: large;
+}
+
+.textprecio2 {
+    color: chocolate;
+    font-weight: bold;
+    font-size: large;
+}
+.btn {
+    background-color: black;
+    text-transform: uppercase;
+    color: #fff;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border:0;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.5s all;
+}
+.btn:hover {
+    transform:scale(102%) ;
+}
+
+
 
 .extra {
     width: 100%;
@@ -118,9 +235,34 @@
 }
 
 .pie {
+    background-color: peachpuff;
+    color: rgb(136, 55, 55);
     width: 100%;
-    border: solid;
-    border-color: black;
-    box-sizing: border-box;
-    padding: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;   
+    display: grid;
+    gap: 20px;
+   
+}
+
+.imagenpie {
+    grid-template-rows: 1fr;
+  
+}
+.titulopie1 {
+    grid-template-rows: 1fr;
+    
+    
+}
+
+.titulopie2 {
+    grid-template-rows: 1fr;
+    
+    
+}
+
+span {
+    padding-bottom: 30px;
 }
