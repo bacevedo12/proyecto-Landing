@@ -1,3 +1,6 @@
+body{
+    margin: 20px;
+}
 .conteiner-fluid { 
     background-color: black;
     display: flex;
@@ -61,7 +64,8 @@
     color: darkgray;
     padding-left: 200px;
     padding-right: 300px;
-    font-size: large;
+    padding-bottom: 30px;
+    font-size: 25px;
 
    
 }
@@ -70,6 +74,7 @@
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
+    color:darksalmon;
     /* padding-bottom: 10px; */
     font-size: large;
 }
@@ -94,6 +99,7 @@
     padding-left: 600px;
     padding-right: 200px;
     padding-top: 10px;
+    padding-bottom: 20px;
     font-size: small;
     color: darksalmon;
 
@@ -119,7 +125,7 @@
     font-size: 200cm;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
+    color: rgb(120, 47, 47);
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -136,7 +142,8 @@
     background-color: aliceblue;
     box-shadow: 0 0 5px #000;
     border-radius: 10px;
-    padding: 13px;
+    text-align: justify;
+    padding: 60px;
     margin: 10px;
 }
 
@@ -150,32 +157,32 @@
 
 
 .tarjeta1 {
-    width: 40%;
+    width: 45%;
     grid-area: a;
 }
 
 .tarjeta2 {
-    width: 40%;
+    width: 45%;
     grid-area: b;
 }
 
 .tarjeta3 {
-    width: 40%;
+    width: 45%;
     grid-area: c;
 }
 
 .tarjeta4 {
-    width: 40%;
+    width: 45%;
     grid-area: d;
 }
 
 .tarjeta5 {
-    width: 40%;
+    width: 45%;
     grid-area: e;
 }
 
 .tarejeta6 {
-    width: 40%;
+    width: 45%;
     grid-area: f;
 }
 
@@ -183,12 +190,14 @@
     text-align: center;
     color: burlywood;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 
 .titulotarjeta2, .titulotarjeta4, .titulotarjeta6 {
     text-align: center;
     color: chocolate;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 
 .textprecio1 {
@@ -223,11 +232,53 @@
 
 
 .extra {
+    background-color: antiquewhite;
+    justify-content: space-between;
     width: 100%;
-    border: solid;
-    border-color: black;
+    height: 650px;
+    padding-top: 50px;
+    padding-left: 50px;
     box-sizing: border-box;
-    padding: 20% ;
+   
+}
+
+.titulopromocion {
+    text-align: center;
+    color:rgb(218, 126, 61) ;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+}
+.subtitulopromocion {
+    font-weight: bold;
+    color: rgb(218, 126, 61) ;
+}
+.itempromocion{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 50px;
+    color: burlywood;
+    font-weight: bold;
+    font-size: large;
+}
+#nombre {
+    margin-bottom: 10px;
+}
+
+#apellido {
+    margin-bottom: 10px;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color:rgb(218, 126, 61);
+    color: antiquewhite;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .conteinerpie {
