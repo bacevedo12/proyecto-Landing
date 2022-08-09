@@ -1,7 +1,4 @@
-body {
-    margin: auto;
-    width: 80%;
-}
+
 .conteiner-fluid { 
     background-color: black;
     display: flex;
@@ -20,7 +17,7 @@ body {
 
 }
 .colorfondo {
-    background-color: rgb(204, 177, 141) !important;
+    background-color: rgb(204, 177, 141);
 }
 
 #navbarNavAltMarkup {
@@ -352,11 +349,14 @@ span {
     padding-bottom: 30px;
 }
 
-@media screen and (min-600px) {
+@media screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+
    .conteinertarejetas {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
    }
