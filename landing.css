@@ -9,8 +9,7 @@
 }
 
 .colorletra {
-    color: aliceblue!important;
-    font-weight: bold !important;
+    color: aliceblue;
     font-size: large;
     padding-left: 300px;
     padding-right: 300px;
@@ -28,7 +27,6 @@
 .btn1 {
     background-color: rgba(200, 160, 105, 0.769);
     color: aliceblue;
-    font-weight: bold;
     font-size: larger;
     border-color: bisque;
     border-style: double;
@@ -47,7 +45,7 @@
     height: 30%;
     border: solid;
     box-sizing: border-box;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     
 }
 
@@ -70,8 +68,9 @@
 }
 
 .item2 {
-    padding-left: 200px;
-    padding-right: 200px;
+    text-align:center;
+    padding-left: auto;
+    padding-right: auto;
     padding-top: 50px;
     color:darksalmon;
     /* padding-bottom: 10px; */
@@ -79,11 +78,18 @@
 }
 
 #mail {
+    text-align: center;
     padding-left:30px;
+    padding-right:auto;
     padding-top: 30px;
 }
 .btn2 {
-    margin-left: 20px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 30%;
     background-color: darksalmon;
     color: aliceblue;
     border-radius:30px;
@@ -95,8 +101,7 @@
 }
 
 .piemail {
-    padding-left: 600px;
-    padding-right: 200px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: small;
@@ -110,23 +115,18 @@
     
 }
     
-   
-   
 
 .publicidad {
     width: 100%;
     height: 40%;
     background-color:rgb(204, 177, 141) ;
     box-sizing: border-box;
-   
-    
+      
 }
-
 
 .cabecera {
     text-align: center;
     font-size: 200cm;
-    font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(120, 47, 47);
     padding-top: 50px;
@@ -164,32 +164,7 @@
 }
  
 
-.tarjeta1 {
-    width: 45%;
-   
-}
-
-.tarjeta2 {
-    width: 45%;
-   
-}
-
-.tarjeta3 {
-    width: 45%;
-   
-}
-
-.tarjeta4 {
-    width: 45%;
-   
-}
-
-.tarjeta5 {
-    width: 45%;
-   
-}
-
-.tarejeta6 {
+.tarjetas {
     width: 45%;
    
 }
@@ -197,26 +172,21 @@
 .titulotarjeta1, .titulotarjeta3, .titulotarjeta5 {
     text-align: center;
     color: burlywood;
-    font-weight: bold;
-    padding-bottom: 30px;
 }
 
 .titulotarjeta2, .titulotarjeta4, .titulotarjeta6 {
     text-align: center;
     color: chocolate;
-    font-weight: bold;
-    padding-bottom: 30px;
+   
 }
 
 .textprecio1 {
     color: burlywood;
-    font-weight: bold;
     font-size: large;
 }
 
 .textprecio2 {
     color: chocolate;
-    font-weight: bold;
     font-size: large;
 }
 .btn {
@@ -225,11 +195,11 @@
     color: #fff;
     max-width: 30%;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 40%;
+    margin-right:20%;
     padding: 20px 20px;
     border-radius: 50px;
     border:0;
-    font-weight: bold;
     font-size: large;
     transition: 0.5s all;
 }
@@ -242,6 +212,8 @@
 .extra {
     background-color: antiquewhite;
     justify-content: space-around;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 20%;
     padding-top: 50px;
@@ -260,34 +232,24 @@
     text-align: center;
     color:rgb(218, 126, 61) ;
     padding-bottom: 30px;
-    font-weight: bold;
 
 }
 .subtitulopromocion {
-    font-weight: bold;
     color: rgb(218, 126, 61) ;
 }
 .itempromocion{
     text-align: justify;
-    width: 50%;
+    width: 40%;
     margin:20px;
     padding: 10px;
     color: burlywood;
     font-weight: bold;
     font-size: large;
 }
-#nombre {
-    margin-bottom: 10px;
-}
 
-#apellido {
-    margin-bottom: 10px;
+.input {
+    max-width: 300px;
 }
-
-#email {
-    margin-bottom: 10px;
-}
-
 .submit {
     background-color:rgb(218, 126, 61);
     color: antiquewhite;
@@ -297,27 +259,17 @@
 
 }
 
+
 .conteinerpie {
     background-color: peachpuff;
     color: rgb(136, 55, 55);
     width: 100%;
     height: 10%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
     box-sizing: border-box;  
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-
-   
-}
-
-.imagenpie {
-    margin-bottom: 30px;
-
-    
-  
+ 
 }
 
 .listapie {
@@ -325,25 +277,16 @@
     width: 20%;
 }
 .btnicono {
-    margin-top: 30px;
     border: none;
     background-color:peachpuff ;
     font-size: 50px;
     color: rgb(136, 55, 55);
 }
-.titulopie1 {
-    width: 20%;
-    
-    
+.titulopie {
+    width: 20%; 
     
 }
 
-.titulopie2 {
-    width: 20%;
-    
-    
-    
-}
 
 span {
     padding-bottom: 30px;
@@ -354,15 +297,36 @@ span {
         width: 100%;
     }
 
+    .item2 {
+        max-width: 70%;
+    }
+    .btn2 {
+        max-width: 20%;
+    }
    .conteinertarejetas {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     max-width: 100%;
     justify-content: center;
    }
-} 
-    
- .extras {
-    display:flex ;
+
+   .conteinerpie {
+    display: flex;
     flex-direction: column;
  }
+
+ .extra {
+    display:flex ;
+    flex-direction: column;
+    max-width: 100%;
+ }
+.imagen3 {
+    max-width: 300px;
+}
+.input {
+    max-width: 200px;
+}
+} 
+    
+
+
