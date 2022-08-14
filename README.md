@@ -4,4 +4,4 @@ Pagina Web estatica con uso de:
  - html y css
  - Aplicación de Boostrap
  - Uso de Flex 
- - Uso de media queris 
+ - Uso de Media Queries 

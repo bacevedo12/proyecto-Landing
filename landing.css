@@ -1,36 +1,22 @@
 
-.conteiner-fluid { 
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 10%;
-    
-}
-
 .colorletra {
     color: aliceblue;
-    font-size: large;
-    padding-left: 300px;
-    padding-right: 300px;
+    font-size: large;  
 
 }
 .colorfondo {
     background-color: rgb(204, 177, 141);
 }
 
-#navbarNavAltMarkup {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .btn1 {
     background-color: rgba(200, 160, 105, 0.769);
     color: aliceblue;
     font-size: larger;
-    border-color: bisque;
-    border-style: double;
+    border-color:  rgba(200, 160, 105, 0.769);
+    border-style: solid;
     border-radius: 50px;
+
 }
 .presentacion {
     display: flex;
@@ -39,14 +25,7 @@
     align-items: center;
     background-color: antiquewhite;
     color: antiquewhite ;
-    font-weight: bold;
-    margin-top: 0;
-    width: 100%;
-    height: 30%;
-    border: solid;
-    box-sizing: border-box;
-    /* padding-top: 100px; */
-    
+
 }
 
 .titulo {
@@ -69,45 +48,27 @@
 
 .item2 {
     text-align:center;
-    padding-left: auto;
-    padding-right: auto;
     padding-top: 50px;
     color:darksalmon;
-    /* padding-bottom: 10px; */
-    font-size: large;
+    font-size: 20px;
 }
 
-#mail {
-    text-align: center;
-    padding-left:30px;
-    padding-right:auto;
-    padding-top: 30px;
-}
+
 .btn2 {
     display: block;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    max-width: 30%;
+    margin-bottom: 30px;
+    max-width: 50%;
     background-color: darksalmon;
     color: aliceblue;
     border-radius:30px;
     border: none;
 }
 
-#mail {
-    padding-left: 600px;
-}
 
-.piemail {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: small;
-    color: darksalmon;
-
-}
 .imagen1 {
     width: 50%;
     display: block;
@@ -117,20 +78,16 @@
     
 
 .publicidad {
-    width: 100%;
-    height: 40%;
     background-color:rgb(204, 177, 141) ;
-    box-sizing: border-box;
       
 }
 
 .cabecera {
     text-align: center;
-    font-size: 200cm;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(120, 47, 47);
-    padding-top: 50px;
-    padding-bottom: 50px;
+
 }
 
 .conteinertarejetas {
@@ -141,8 +98,6 @@
 }
 
 .tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4,.tarjeta5, .tarejeta6 {
-    background-color: aliceblue;
-    box-shadow: 0 0 5px #000;
     border-radius: 10px;
     text-align: justify;
     padding: 60px;
@@ -151,15 +106,16 @@
 
 .tarjeta1, .tarjeta3, .tarjeta5 {
     background-color: beige;
+    color: burlywood;
 }
 
 .tarjeta2, .tarjeta4, .tarjeta4 {
     background-color: blanchedalmond;
+    color:chocolate;
 }
 
 .imagen2 {
     display: block;
-    margin: auto;
     max-width: 80%;
 }
  
@@ -182,68 +138,48 @@
 
 .textprecio1 {
     color: burlywood;
-    font-size: large;
+    font-size: 20px;
+
 }
 
 .textprecio2 {
     color: chocolate;
-    font-size: large;
-}
-.btn {
-    background-color: black;
-    text-transform: uppercase;
-    color: #fff;
-    max-width: 30%;
-    margin-top: 20px;
-    margin-left: 40%;
-    margin-right:20%;
-    padding: 20px 20px;
-    border-radius: 50px;
-    border:0;
-    font-size: large;
-    transition: 0.5s all;
-}
-.btn:hover {
-    transform:scale(102%) ;
-}
+    font-size: 20px;
 
-
+}
 
 .extra {
     background-color: antiquewhite;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 20%;
-    padding-top: 50px;
-    padding-left: 50px;
-    box-sizing: border-box;
+
    
 }
 
 .imagen3 {
     display: block;
     height: 80%;
-    margin-top: 20px;
 }
 
 .titulopromocion {
     text-align: center;
-    color:rgb(218, 126, 61) ;
-    padding-bottom: 30px;
+    color: rgb(136, 55, 55);
 
 }
 .subtitulopromocion {
-    color: rgb(218, 126, 61) ;
+    color:  rgb(136, 55, 55);
 }
+.parrafotarjetas {
+    color:darkgray; ;
+}
+
 .itempromocion{
     text-align: justify;
     width: 40%;
     margin:20px;
     padding: 10px;
-    color: burlywood;
-    font-weight: bold;
+    color:rgb(218, 126, 61);
     font-size: large;
 }
 
@@ -263,8 +199,6 @@
 .conteinerpie {
     background-color: peachpuff;
     color: rgb(136, 55, 55);
-    width: 100%;
-    height: 10%;
     box-sizing: border-box;  
     display: flex; 
     flex-direction: row;
@@ -288,28 +222,52 @@
 }
 
 
-span {
-    padding-bottom: 30px;
-}
-
 @media screen and (max-width:600px) {
     body {
         width: 100%;
     }
 
-    .item2 {
-        max-width: 70%;
-    }
     .btn2 {
         max-width: 20%;
     }
+
+    .item1{
+        font-size: 20px;
+    }
+
+    .item2 {
+        font-size: 15px;
+        max-width: 80%;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .piemail{
+        font-size: xx-small;
+    }
+    .imagen1 {
+        max-width: 250px;
+        max-height: 200px;
+    }
    .conteinertarejetas {
-    display: flex;
-    flex-direction:column;
     max-width: 100%;
-    justify-content: center;
    }
 
+   .tarjetas {
+    width: 90%;
+    font-size: 12px;
+   }
+
+   .titulotarjeta1, .titulotarjeta2, .titulotarjeta3, .titulotarjeta4, .titulotarjeta5, .titulotarjeta6{
+    font-size: 18px;
+   }
+   
+   .textprecio1, .textprecio2 {
+    font-size: 18px;
+   }
+   .btn{
+    margin-left: 0;
+   }
    .conteinerpie {
     display: flex;
     flex-direction: column;
@@ -320,13 +278,74 @@ span {
     flex-direction: column;
     max-width: 100%;
  }
+
+.itempromocion {
+    width: 80%;
+}
 .imagen3 {
     max-width: 300px;
+    margin-left: 30px;
+    
 }
 .input {
     max-width: 200px;
 }
 } 
     
+@media screen and (max-width:850px){
+    body {
+        width: 100%;
+    }
+    .tarjetas {
+        width: 90%;
+        font-size: 12px;
+       }
+    
+       .titulotarjeta1, .titulotarjeta2, .titulotarjeta3, .titulotarjeta4, .titulotarjeta5, .titulotarjeta6{
+        font-size: 20px;
+       }
+       
+       .textprecio1, .textprecio2 {
+        font-size: 18px;
+       }
 
+    .extra {
+    display:flex ;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    }
 
+    .itempromocion {
+        width: 80%;
+    }
+
+    .imagen3 {
+        margin-left: 30px;
+    }
+
+    .conteinerpie {
+        display: flex;
+        flex-direction: column;
+    
+}
+
+}
+
+@media screen and (max-width:990px) {
+    .extra {
+        display:flex ;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+}
+
+.imagen3 {
+    margin-left: 30px;
+}
+
+.conteinerpie {
+    display: flex;
+    flex-direction: column;
+}
+}

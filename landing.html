@@ -12,105 +12,100 @@
   <link rel="stylesheet" href="/landing.css">
 
 </head>
-<body>
-<header class="container">
-<nav class="navbar navbar-expand-lg colorfondo">
-  <div class="container-fluid">
-    <img src="/logospa2.jpg" width="150px">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="#Quienessomos" class="nav-link fw-bold colorletra" aria-current="page">Quienes somos </a></li>
-        <li class="nav-item"><a href="#Masajes" class="nav-link fw-bold colorletra">Masajes</a></li>
-        <li class="nav-item"><a href="#Promociones" class="nav-link fw-bold colorletra"> Promociones |</a></li>
-        <li class="nav-item"><a href="#Registrate" class= "nav-link fw-bold  colorletra" >Registrate </a></li>
-        <li class="nav-item"><a href="#Contacto">
-          <button class="btn1 fw-bold" type="button"> Contacto </button>
-        </a></li>
-      </ul>
-      <!-- <div class="navbar-nav">
-        <a href="#Quienessomos" class="nav-link active colorletra" aria-current="page">Quienes somos </a>
-        <a href="#Masajes" class="nav-link colorletra">Masajes</a>
-        <a href="#Promociones" class="nav-link colorletra"> Promociones |</a>
-        <a href="#Registrate" class= "nav-link colorletra" >Registrate </a>
-        <a href="#Contacto">
-        <button class="btn1" type="button"> Contacto </button>
-      </a>
-
-      </div> -->
+<body class="container">
+<header>
+  <nav class="navbar navbar-expand-lg colorfondo">
+    <div class="container-fluid">
+      <img src="/logospa2.jpg" width="150px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#Quienessomos" class="nav-link fw-bold colorletra" aria-current="page">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Masajes" class="nav-link fw-bold colorletra">Masajes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Promociones" class="nav-link fw-bold colorletra"> Promociones </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Registrate" class="nav-link fw-bold  colorletra">Registrate </a>
+          </li>
+          <li class="nav-item"><a href="#Contacto">
+            <button class="btn1 fw-bold mt-1" type="button"> Contacto </button>
+          </a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-</header>
- <main>
+  </nav>
 
-<div class="pt-5 presentacion" id="Quienessomos">
+</header>
+
+<main>
+<div class="pt-5 fw-bold presentacion" id="Quienessomos">
   <h1 class="text-uppercase titulo">Masajes Relajación, Descontracturantes <br> y mucho más en un solo lugar </h1>
   <p class="item1"> Regalonéate con nuestros Masajes de Relajación, Descontracturante, Masaje Craneal,<br> Piedras Calientes
     o Masaje Tailandes, en un ambiente único.</p>
   <img class="imagen1" src="/imagenspa2.jpg" height="300px">
   <div class="column">
-    <p class="item2"> Nuestros masajes están diseñados para promover la calma y el equilibrio,<br> aportar bienestar
-      al cuerpo y mente en un entorno que deleíta todo los sentidos.<br> Ven y conoce nuestros servicios.
+    <p class="text-center item2"> Nuestros masajes están diseñados para promover la calma y el equilibrio,<br> aportar bienestar
+      al cuerpo y mente en un entorno que<br> deleíta todo los sentidos. Ven y conoce nuestros servicios.
     </p>
-    <div id="Contacto">
-      <label id="mail" for="email"></label>
-      <input type="email" id="email" placeholder="Ingrese su e-mail" size="50">
-      <button class="btn2" type="button">Enviar</button>
+      <div class="mb-3" id="Contacto">
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ingrese su e-mail" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Te contactaremos en menos de 24 horas para agendar tu hora. Conoce nuestros terminos y condiciones</div>
+        <button class="btn2" type="button">Enviar</button>
+      </div>
+  
 
-    </div>
-
-    <p class="piemail"> Te contactaremos en menos de 24 horas para agendar tu hora. <br> Conoce nuestros Terminos y
-      Condiciones.</p>
-
-  </div>
 </div>
 
 <div class="publicidad" id="Masajes">
-    <div class="cabecera">
+    <div class="pt-5 pb-5 cabecera">
         <h1 class="text-uppercase fw-bold">Elige tu masaje</h1>
     </div>
-    <div class="d-flex flex-colum flex-wrap justify-content-center conteinertarjetas">
+      <div class="d-flex flex-colum flex-wrap justify-content-center conteinertarjetas">
         <div class="tarjeta1 tarjetas">
             <h2 class="fw-bold pb-4 titulotarjeta1">Masaje Relajación</h2>
-            <p> Masaje que relaja y humecta tu cuerpo con aceites escenciales. Este tipo de masajes fija
+            <p class="parrafotarjetas"> Masaje que relaja y humecta tu cuerpo con aceites escenciales. Este tipo de masajes fija
               su atención en descargar la tensión acumulada, se aplica de forma lenta y progresiva, siendo 
               su efecto la relajación y disminición del tono muscular, a través de un contacto no agresivo 
               por parte de la persona que lo aplica.
             </p>
             <p class="fw-bold textprecio1"> Duración de masajes: 45 min <br> Precio masaje: $30.000 </p>
-            <img class="imagen2" src="/imagenmasaje1.jpg" height="300vw" m >
+            <img class="imagen2" src="/imagenmasaje1.1.jpg" width="300px" >
             <br>
-            <button type="button" class="fw-bold btn"> Comprar</button>
+            <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
           
         </div>
 
         <div class="tarjeta2 tarjetas">
           <h2 class="fw-bold pb-4 titulotarjeta2">Masaje Descontracturante</h2>
-          <p> Reduce el estrés y alivia la tensión muscular con un intenso masaje descontracturante.Es un tipo de masaje
+          <p class="parrafotarjetas"> Reduce el estrés y alivia la tensión muscular con un intenso masaje descontracturante. Es un tipo de masaje
            que se realiza con mayor grado de fuerza y profundidad, utilizado para relajar la musculatura principalmente 
            de cuello y espalda y disolver así las contracturas  que se producen por estrés, malas posturas, falta de descanso
            o una vida demasiado sedentaria.
           </p>
           <p class="fw-bold textprecio2"> Duración de masajes: 45 min <br> Precio masaje: $40.000 </p>
-          <img class="imagen2" src="/imagenmasaje3.jpg" height="300px">
+          <img class="imagen2" src="/imagenmasaje3.1.jpg" width="300px">
           <br>
-          <button type="button" class="fw-bold btn"> Comprar</button>
+          <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
         
         </div>
 
         <div class="tarjeta3 tarjetas">
           <h2 class="fw-bold pb-4 titulotarjeta3">Masaje Mixto</h2>
-          <p> Balance perfecto. El Ying y el Yang. Una mezcla de Masaje Descontracturante y Relajación,
+          <p class="parrafotarjetas"> Balance perfecto. El Ying y el Yang. Una mezcla de Masaje Descontracturante y Relajación,
           reduciendo la tensión y el estres de la zona y logrando una relajación profunda. 
           </p>
           <p class= "fw-bold textprecio1"> Duración de masajes: 45 min <br> Precio masaje: $35.000 </p>
-          <img class="imagen2" src="/imagenmasaje2.jpg" height="250px">
+          <img class="imagen2" src="/imagenmasaje2.1.jpg" width="350px">
           <br>
-          <button type="button" class="fw-bold btn"> Comprar</button>
+          <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
         
         </div>
         
@@ -118,36 +113,36 @@
 
         <div class="tarjeta4 tarjetas">
           <h2 class="fw-bold pb-4 titulotarjeta4">Masaje Craneal</h2>
-          <p> Localizado y profundo masaje que aliviará tu espalda, cuello, hombros, cuero cabelludo y rostro.
+          <p class="parrafotarjetas"> Localizado y profundo masaje que aliviará tu espalda, cuello, hombros, cuero cabelludo y rostro.
             Está especialmente dirigido a reducir la tensión de estas zonas y eliminar el dolor y las molestias que ésta puede causar.
             El masaje craneal también está indicado para eliminar los dolores de cabeza congestivos, ya que facilita el drenaje de la 
             zona nasal, orbicular y frontal eliminando la congestión de la zona característica de enfermedades como la sinusitis. Además, 
             ayuda a aliviar dolores provocados por el bruxismo.
           </p>
           <p class="fw-bold textprecio2"> Duración de masajes: 45 min <br> Precio masaje: $25.000 </p>
-          <img class="imagen2" src="/imagenmasaje4.jpg" height="300px">
+          <img class="imagen2" src="/imagenmasaje4.1.jpg" width="300px">
           <br>
-          <button type="button" class="fw-bold btn"> Comprar</button>
+          <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
         
         </div>
 
         <div class="tarjeta5 tarjetas">
           <h2 class="fw-bold pb-4 titulotarjeta5" >Masaje Piedras Calientes</h2>
-          <p>En esta terapia se utilizan piedras de basalto que son calentadas y puestas sobre puntos determinados del cuerpos.
+          <p class="parrafotarjetas">En esta terapia se utilizan piedras de basalto que son calentadas y puestas sobre puntos determinados del cuerpos.
             Se combina el masaje tradicional con las manos y la colocación de piedras calientes para dilatar los vasos sanguíneos y
             linfáticos y estimula la circulación. El calor de las piedras penetra los músculos proporcionando una gran relajación y 
             aliviando dolores musculares persistentes.
           </p>
           <p class= "fw-bold textprecio1"> Duración de masajes: 45 min <br> Precio masaje: $25.000 </p>
-          <img class="imagen2" src="/imagenmasaje5.jpg" height="300px">
+          <img class="imagen2" src="/imagenmasaje5.1.jpg" width="300px">
           <br>
-          <button type="button" class="fw-bold btn"> Comprar</button>
+          <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
         
         </div>
 
         <div class="tarjeta4 tarjetas">
           <h2 class="fw-bold pb-4 titulotarjeta6" >Masaje Tailandes</h2>
-          <p> 
+          <p class="parrafotarjetas"> 
             El Masaje Tailandés consiste en estiramientos y elongación  de todo el cuerpo, para aumentar la flexibilidad, 
             descontracturar puntos de dolor, y  equilibrar la energía. Se utiliza los pies, las palmas de las manos, los dedos pulgares, 
             los codos,  para aplicar una profunda presión a lo largo del cuerpo,  llegando hasta los músculos más profundos, lo que produce una
@@ -155,9 +150,9 @@
             Se basa en técnicas milenarias que trabajan cuerpo-mente y que se han pasado de generaciones a generaciones.
           </p>
           <p class="fw-bold textprecio2"> Duración de masajes: 45 min <br> Precio masaje: $45.000 </p>
-          <img class="imagen2" src="/imagenmasaje6.jpg" height="300px">
+          <img class="imagen2" src="/imagenmasaje6.1.jpg" width="300px">
           <br>
-          <button type="button" class="fw-bold btn"> Comprar</button>
+          <button type="button" class="fw-bold btn-dark btn-lg mt-4 btn"> Comprar</button>
         
         </div>
 
@@ -165,12 +160,12 @@
 </div>
 </main>
 <aside>
-<div class="extra">
+<div class="pt-5 pb-5 extra">
   <di>
     <img class="imagen3 align-content-center" src="/imagenmasajedoble.jpg" width="500px">
   </di>
-  <div class="itempromocion" id="Promociones">
-  <h1 class="fw-bold titulopromocion"> Promociones </h1>
+  <div class="fw-bold itempromocion" id="Promociones">
+  <h1 class="fw-bold pb-3 titulopromocion"> Promociones </h1>
      <h2 class=" fw-bold subtitulopromocion">Aprovecha Martes y jueves 2x1</h2>
      <p> Los masajes ayudan al organismo a segregar oxitocina, serotonina y dopamina, conocidas como
       las hormonas del bienestar, al compartir este momento junto a tu pareja les generará afecto y felicidad 
