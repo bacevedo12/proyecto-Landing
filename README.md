@@ -5,3 +5,6 @@ Pagina Web estatica con uso de:
  - Aplicación de Boostrap
  - Uso de Flex 
  - Uso de Media Queries 
+
+dirección URL 
+ https://bacevedo12.github.io/proyecto-Landing/
